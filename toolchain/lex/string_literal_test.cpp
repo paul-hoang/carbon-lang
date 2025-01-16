@@ -103,7 +103,7 @@ TEST_F(StringLiteralTest, StringLiteralBounds) {
       // clang-format off
       R"(")",
       R"("\)",
-      R"("\")",
+      R"("\\")",
       R"("\\)",
       R"("\\\")",
       "'''\n",
